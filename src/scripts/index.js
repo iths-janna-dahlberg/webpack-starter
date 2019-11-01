@@ -1,3 +1,10 @@
-import '../styles/index.scss';
+import "../styles/index.scss";
+import anime from "animejs";
 
-console.log('webpack starterkit');
+anime({
+  translateX: 200,
+  easing: "linear",
+  rotation: "45deg",
+  loop: 2,
+  direction: "alternate"
+});
